@@ -26,7 +26,7 @@ const Board = () => {
     }
     snake.drawSnake(context, snake.getSnake());
   }, [context]);
-  console.log('render')
+
   return (
     <div>
       <canvas
